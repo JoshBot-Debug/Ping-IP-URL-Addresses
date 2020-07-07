@@ -1,31 +1,21 @@
+# Pass a list of emails here. One for each person you want to notify. Or leave it blank to not send any emails.
 email:
-  - joshuajosephmyers@outlook.com
+  - example_one@email.com
+  - example_two@email.com
 
-interval: 2
+# The default interval is 600 SECONDS which is 10 minutes. You can set this to anything.
+interval: 600
 
-192.168.1.10:
-  type: ip
-  category: Server
-  name: AD Server
-  value: 192.168.1.10
-    
+# This is an example of how you enter an IP address to ping
+192.168.1.1:                  # This value needs to be unique so make sure it's either the IP address or URL
+  type: ip                    # Excepted values are "ip" and "url"
+  category: Computer          # Can be anything you want
+  name: IT Computer           # Can be anything you want
+  value: 192.168.1.1        # This is the IP/URL that the program will ping every 600 seconds.
 
-192.168.1.235:
-  type: ip
-  category: Computer
-  name: IT Computer
-  value: 192.168.1.235
-    
-
-http://192.168.1.5:8080/DStoreDMS:
-  type: url
-  category: DStore
-  name: Store
-  value: http://192.168.1.5:8080/DStoreDMS
-    
-
-https://google.com:
-  type: url
-  category: Google
-  name: Internet
-  value: https://google.com
+# This is an example of how you enter an URL address to ping
+https://google.com:           # This value needs to be unique so make sure it's either the IP address or URL
+  type: url                   # Excepted values are "ip" and "url"
+  category: Google            # Can be anything you want
+  name: Internet              # Can be anything you want
+  value: https://google.com   # This is the IP/URL that the program will ping every 600 seconds.
