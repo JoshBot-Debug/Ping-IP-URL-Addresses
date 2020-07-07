@@ -1,0 +1,31 @@
+email:
+  - joshuajosephmyers@outlook.com
+
+interval: 2
+
+192.168.1.10:
+  type: ip
+  category: Server
+  name: AD Server
+  value: 192.168.1.10
+    
+
+192.168.1.235:
+  type: ip
+  category: Computer
+  name: IT Computer
+  value: 192.168.1.235
+    
+
+http://192.168.1.5:8080/DStoreDMS:
+  type: url
+  category: DStore
+  name: Store
+  value: http://192.168.1.5:8080/DStoreDMS
+    
+
+https://google.com:
+  type: url
+  category: Google
+  name: Internet
+  value: https://google.com
