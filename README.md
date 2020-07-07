@@ -12,4 +12,4 @@ Once you've cloned the repo on your computer, install all the required packages 
 To run the app just call "main.py" from command prompt and pass the path of the "config.yaml" file like this : "python main.py C:\path\to\file\config.yaml"
 
 # config.yaml
-The program requires that you pass a "config.yaml" file when running. Check out the example file in the repo
+The program requires that you pass a "config.yaml" file when running. Check out the example config.yaml file here https://github.com/JoshBot-Debug/Ping-IP-URL-Addresses/blob/master/config.yaml
